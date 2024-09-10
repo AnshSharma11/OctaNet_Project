@@ -1,0 +1,158 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url("topone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+#text{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    padding: 0 10vw;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+#text h1{
+    font-size: 6vw;
+    font-weight: 500;
+}
+
+#textright{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textright #search {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 8px;
+    color: #fff;
+
+}
+    
+
+#textright i{
+    color: #fff;
+}
+
+#textright p{
+    font-size: 12px;
+    width: 40%;
+}
+
+#bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+#bone{
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+    padding: 30px;  
+}
+
+#bone p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(btwo.png);
+    background-size: cover;
+}
+
+#photo{
+    background-image: url(photo1.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 100%;   
+}
+
+#bthree{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+}
+
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    padding: 20px;
+    color: #fff;
+
+}
+
+#bthree p{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+#bthreebottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(bthree.png);
+    background-size: cover;
+}
+
+
+#bfour{
+    width: 30%;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+    padding: 30px;
+}
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.notf p{
+    width: 86%;
+    font-size: 12px;
+
+}
